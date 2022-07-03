@@ -1,0 +1,18 @@
+Charpter 1: Breaking the Surface- a quick dip
+
+Running a program means telling the Java Virtual Machine(JVM) to "Load the class",
+then start executing its main() method, Keep running til all the code in main is 
+finished.
+
+Why does everything have to be in classes?
+Java is an object-oriented language.
+
+Do I have to put a main in every class I write?
+No, only need one for the main method for the project start.
+
+In my other language I can do a boolean test on an integer.
+In Java can I say something like:
+    int x = 1;
+    while(x){}
+
+No. A boolean and an integer are not compatible types in Java.
