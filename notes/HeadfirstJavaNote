@@ -16,3 +16,18 @@ In Java can I say something like:
     while(x){}
 
 No. A boolean and an integer are not compatible types in Java.
+
+Charpter 2: A Trip to Objectville
+
+Overriding just means that a subclass redefines one of its inherited
+methods when it needs to change or extend the behavior of that method.
+
+Things an object knows about itself are called -- instance variables
+Things an object can do are called -- methods
+
+A class is a blueprint for an object
+
+The two uses of main:
+to test your real class
+to launch/start your Java application
+
