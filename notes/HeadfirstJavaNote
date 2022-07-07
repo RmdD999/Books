@@ -97,3 +97,60 @@ bits representing the actual value of the
 variable, an object reference variable is full 
 of bits representing a way to get to the 
 object.
+
+ß Variables come in two flavors: primitive and 
+reference.
+ß Variables must always be declared with a name 
+and a type. 
+ß A primitive variable value is the bits representing 
+the value (5, ‘a’, true, 3.1416, etc.).
+ß A reference variable value is the bits 
+representing a way to get to an object on the 
+heap.
+ß A reference variable is like a remote control. 
+Using the dot operator (.) on a reference 
+variable is like pressing a button on the remote 
+control to access a method or instance variable.
+ß A reference variable has a value of null when 
+it is not referencing any object.
+ß An array is always an object, even if the array 
+is declared to hold primitives. There is no such 
+thing as a primitive array, only an array that 
+holds primitives.
+
+
+Charpter 4 -- methods use instance variables
+
+State affects behavior, behavior affects state.
+
+A method uses parameters. A caller passes arguments.
+
+Methods can return values. Every method is declared with a return 
+type, but until now we’ve made all of our methods with a void
+return type, which means they don’t give anything back.
+
+ß Classes define what an object knows and what an 
+object does.
+ß Things an object knows are its instance variables 
+(state). 
+ß Things an object does are its methods (behavior). 
+ß Methods can use instance variables so that objects 
+of the same type can behave differently. 
+ß A method can have parameters, which means you 
+can pass one or more values in to the method. 
+ß The number and type of values you pass in must 
+match the order and type of the parameters 
+declared by the method.
+ß Values passed in and out of methods can be 
+implicitly promoted to a larger type or explicitly cast 
+to a smaller type.
+ß The value you pass as an argument to a method 
+can be a literal value (2, ‘c’, etc.) or a variable of 
+the declared parameter type (for example, x where 
+x is an int variable). (There are other things you 
+can pass as arguments, but we’re not there yet.)
+ß A method must declare a return type. A void return 
+type means the method doesn’t return anything.
+ß If a method declares a non-void return type, it must 
+return a value compatible with the declared return 
+type.
