@@ -31,3 +31,69 @@ The two uses of main:
 to test your real class
 to launch/start your Java application
 
+ß Object-oriented programming lets you extend 
+a program without having to touch previouslytested, working code.
+ß All Java code is defined in a class. 
+ß A class describes how to make an object of 
+that class type. A class is like a blueprint.
+ß An object can take care of itself; you don’t 
+have to know or care how the object does it.
+ß An object knows things and does things.
+ß Things an object knows about itself are called 
+instance variables. They represent the state 
+of an object.
+ß Things an object does are called methods. 
+They represent the behavior of an object.
+ß When you create a class, you may also want 
+to create a separate test class which you’ll 
+use to create objects of your new class type.
+ß A class can inherit instance variables and 
+methods from a more abstract superclass. ß At runtime, a Java program is nothing more 
+than objects ‘talking’ to other objects.
+
+
+I am compiled from a .java file --->Class
+
+
+Chapter 3 Primitives and references
+
+Primitives hold 
+fundamental values (think: simple bit patterns) 
+including integers, booleans, and floating point 
+numbers.
+
+Object references hold, well, references
+to objects (gee, didn’t that clear it up.)
+
+variables must have a type
+variables must have a name
+
+A variable is just a cup. A container. It holds something.
+
+■ It must start with a letter, underscore (_), or 
+dollar sign ($). You can’t start a name with a 
+number.
+■ After the fi rst character, you can use numbers as 
+well. Just don’t start it with a number.
+■ It can be anything you like, subject to those two 
+rules, just so long as it isn’t one of Java’s reserved 
+words.
+
+The eight primitive types are: boolean char byte short int long float double And here’s a mnemonic for remembering them: Be Careful! Bears Shouldn’t Ingest Large Furry Dogs If you make up your own, it’ll stick even better
+
+■ There is actually no such thing as an object variable.
+■ There’s only an object reference variable.
+■ An object reference variable holds bits that represent a 
+way to access an object.
+■ It doesn’t hold the object itself, but it holds something 
+like a pointer. Or an address. Except, in Java we don’t 
+really know what is inside a reference variable. We do 
+know that whatever it is, it represents one and only one 
+object. And the JVM knows how to use the reference to 
+get to the object.
+
+Although a primitive variable is full of 
+bits representing the actual value of the 
+variable, an object reference variable is full 
+of bits representing a way to get to the 
+object.
