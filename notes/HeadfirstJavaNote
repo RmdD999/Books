@@ -154,3 +154,9 @@ type means the method doesn’t return anything.
 ß If a method declares a non-void return type, it must 
 return a value compatible with the declared return 
 type.
+
+But sometimes you want to know if two objects are equal. 
+And for that, you need the .equals() method. The idea of equality for 
+objects depends on the type of object.
+
+the == operator is used only to compare the bits in two variables.
