@@ -168,3 +168,17 @@ I prefer my instance variables private -- encapsulation
 It really means 'make a copy' -- pass by value
 
 Chapter 5 Writing a program
+
+Q:What happens in 
+Integer.parseInt() if the thing you 
+pass isn’t a number? And does it 
+recognize spelled-out numbers, 
+like “three”?
+
+A:Integer.parseInt() works only 
+on Strings that represent the ascii 
+values for digits (0,1,2,3,4,5,6,7,8,9). 
+If you try to parse something like 
+“two” or “blurp”, the code will blow 
+up at runtime. (By blow up, we 
+actually mean throw an exception
